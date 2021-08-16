@@ -18,7 +18,7 @@ def to_str(bytes_or_str):
         value = bytes_or_str
     return value
 
-python3 (convert str or bytes to str):
+python3 (convert str or bytes to bytes):
 def to_bytes(bytes_or_str):
     if isintance(bytes_or_str, str):
         value = bytes_or_str.encode('utf-8')
