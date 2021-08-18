@@ -36,4 +36,8 @@ It can be act as getters:
                                    self._settings.statistics_config)
             self.return_code = self._result.return_code
         return self._result
+        
+ why use python property:
+ https://www.liaoxuefeng.com/wiki/897692888725344/923030547069856
+ https://zhuanlan.zhihu.com/p/64487092
 ```
