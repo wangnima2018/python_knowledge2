@@ -40,4 +40,8 @@ It can be act as getters:
  why use python property:
  https://www.liaoxuefeng.com/wiki/897692888725344/923030547069856
  https://zhuanlan.zhihu.com/p/64487092
+ 
+ 
+ Use @functools.wraps(func) with decorator: 
+ https://www.geeksforgeeks.org/python-functools-wraps-function/
 ```
