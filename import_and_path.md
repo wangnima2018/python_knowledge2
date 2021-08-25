@@ -2,6 +2,8 @@
 
 2 https://realpython.com/absolute-vs-relative-python-imports/
 
+3 https://bic-berkeley.github.io/psych-214-fall-2016/sys_path.html
+
 ```python
 a real example:
 Here's the folder hierarchy:
@@ -33,7 +35,8 @@ Since we run the file from dir:
  /Users/wupeng/projects_code/robotframework-master2/robotframework/utest/api/, if we check sys.path, we can observe:
  ['/Users/wupeng/projects_code/robotframework-master2/robotframework/utest/api',...]
  Since '/Users/wupeng/projects_code/robotframework-master2/robotframework' is missing from sys.path, we need to update it with code:
- sys.path.append(os.path.abspath("."))
+ sys.path.append(os.path.abspath("."))---> this returns current directory's abs path, which is '/Users/wupeng/projects_code/robotframework-master2/robotframework':
+ Then the script is able to locate the file from utest....
  
 ```
 
