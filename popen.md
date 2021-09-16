@@ -46,3 +46,24 @@ p poll is None
 Process ended, ret code: 0
 p poll now 0
 ```
+
+
+```python3
+other threading knowledge:
+
+https://stackoverflow.com/questions/1886090/return-value-from-thread
+
+How do I get a thread to return a tuple or any value of my choice back to the parent in Python?
+
+import threading
+import queue
+def dosomething(param):
+    return param * 2
+que = queue.Queue()
+thr = threading.Thread(target = lambda q, arg : q.put(dosomething(arg)), args = (que, 2))
+thr.start()
+thr.join()
+while not que.empty():
+    print(que.get())
+
+```
