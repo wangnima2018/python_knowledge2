@@ -38,5 +38,8 @@ Since we run the file from dir:
  sys.path.append(os.path.abspath("."))---> this returns current directory's abs path, which is '/Users/wupeng/projects_code/robotframework-master2/robotframework':
  Then the script is able to locate the file from utest....
  
+ Run test_run_and_rebot.py file from utest/api/ dir:
+ /Users/wupeng/projects_code/robotframework-master2/robotframework:  python3 utest/api/test_run_and_rebot.py
+ 
 ```
 
