@@ -19,7 +19,7 @@ import related code:
 from utest.resources.runningtestcase import RunningTestCase
 from utest.resources.Listener import Listener
 
-Run test_run_and_rebot.py file from robotframework dir:
+(!!!)Run test_run_and_rebot.py file from robotframework dir:
 /Users/wupeng/projects_code/robotframework-master2/robotframework:   python3 test_run_and_rebot.py
 
 The logic behind it is when python3 start with *.py file, that file's location will be put to sys.path
@@ -38,7 +38,7 @@ Since we run the file from dir:
  sys.path.append(os.path.abspath("."))---> this returns current directory's abs path, which is '/Users/wupeng/projects_code/robotframework-master2/robotframework':
  Then the script is able to locate the file from utest....
  
- Run test_run_and_rebot.py file from utest/api/ dir:
+ (!!!)Run test_run_and_rebot.py file from utest/api/ dir:
  /Users/wupeng/projects_code/robotframework-master2/robotframework:  python3 utest/api/test_run_and_rebot.py
  
 ```
