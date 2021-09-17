@@ -11,6 +11,8 @@ https://stackoverflow.com/questions/533631/what-is-a-mixin-and-why-are-they-usef
 
 I watched this video http://www.youtube.com/watch?v=v_uKI2NOLEM to understand the basics of mixins. It is quite useful for a beginner to understand the basics of mixins and how they work and the problems you might face in implementing them.
 
+https://www.youtube.com/watch?v=v_uKI2NOLEM
+
 Wikipedia is still the best: http://en.wikipedia.org/wiki/Mixin)
 
 ```
